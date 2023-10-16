@@ -1,0 +1,55 @@
+.quoteWrapper {
+    width: 100%;
+    max-width: 100%;
+
+    background-color: #579bb120;
+    padding: .5rem 2rem;
+}
+
+.quoteWrapper:nth-child(2n) {
+    background-color: #579bb110;
+}
+
+.quoteWrapper:first-child {
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+}
+
+.quoteText{
+    font-family: cursive;
+    font-size: 1.25rem;
+}
+
+.quoteAuthor {
+    line-break: none;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quoteData {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+
+    margin-top: .5rem;
+}
+
+.btn {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-size: .9rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.btnDescription {
+    text-decoration: none;
+    font-size: .8rem;
+}

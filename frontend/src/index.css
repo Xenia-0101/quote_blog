@@ -1,0 +1,28 @@
+:root *,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #F8F4EA;
+}
+
+.heading {
+  align-self: center;
+  font-size: 3.5rem;
+  margin: 1rem 0 2rem 0;
+}
+
+
+.project-pages{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(auto-fit, 1fr);
+  gap: 1rem;
+}
+
+
+

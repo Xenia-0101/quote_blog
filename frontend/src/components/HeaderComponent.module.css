@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: flex-end;
+
+
+    height: 100%;
+    width: 100%;
+}
+
+#appName {
+    margin-right: auto;
+    font-family: "Permanent Marker";
+    font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 650px) {
+    #appName {
+        transform: rotate(-20deg) translateY(20px) translateX(0px);
+    }
+  }
+
