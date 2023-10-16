@@ -1,4 +1,4 @@
-To run app:
+To run the app:
 
 -- create virtual environment and install required packages
 
